@@ -71,12 +71,11 @@ main .cont h2{
     flex-direction: column;
     align-items: center;
 }
-.serv{
-    background-color: #fff;
-}
-img{
-    width: 70%;
-    height: auto;
+.item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .btn{
     background-color: #9c3;
@@ -89,12 +88,40 @@ img{
     margin-left: 30px;
     border: none;
 }
+img{
+    width: 100%;
+}
 .serv{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .8)
+}
+.serv00{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 100px;
+    margin: 15px;
+    color: #fff;
+}
+.serv01{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px;
+    color: #fff;
+}
+.image0{
+    margin-right: 20px;
+}
+.serv .image0 .te0{
+    color: #9c3;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 .request{
     padding: 100px;
@@ -156,5 +183,13 @@ img{
     color: #9c3;
 }
 .text003 ul li a{
+    color: #fff;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .8);
     color: #fff;
 }
