@@ -157,34 +157,6 @@ img{
 .form button{
     color: #9c3;
 }
-.end{
-    background-color: rgba(0, 0, .2, .85);
-    color: #fff;
-    opacity: initial;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-}
-.text002{
-    margin: 10px;
-    margin-top: -120px;
-}
-.text003{
-    margin-top: -100px;
-}
-.text002 h4{
-    margin-bottom: 20px;
-    color: #9c3;
-}
-.text003 h4{
-    margin-bottom: 20px;
-    color: #9c3;
-}
-.text003 ul li a{
-    color: #fff;
-}
 .copy{
     display: flex;
     justify-content: center;
